@@ -30,18 +30,6 @@ sonata_cache_cache:
     resource: '@SonataCacheBundle/Resources/config/routing/cache.xml'
     prefix: /
 
-sonata_page_ajax:
-    resource: '@SonataPageBundle/Resources/config/routing/page.xml'
-    prefix: /
-
-sonata_page_cache:
-    resource: '@SonataPageBundle/Resources/config/routing/cache.xml'
-    prefix: /
-
-sonata_page_exceptions:
-    resource: '@SonataPageBundle/Resources/config/routing/exceptions.xml'
-    prefix: /page
-
 _monitor:
     resource: "@LiipMonitorBundle/Resources/config/routing.yml"
     prefix: /monitor/health
@@ -58,10 +46,6 @@ rz_media_rest_service:
     type: rest
     resource: '@RzMediaBundle/Resources/config/REST/media_service_rest.yml'
     prefix: /admin/api/rzmedia
-
-blog:
-    resource: '@SonataNewsBundle/Resources/config/routing/news.xml'
-    prefix: /blog
 
 admin:
     resource: '@RzAdminBundle/Resources/config/routing/sonata_admin.xml'
