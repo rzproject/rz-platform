@@ -1,5 +1,5 @@
 sonata_block:
-    context_manager: sonata.page.block.context_manager
+    #context_manager: sonata.page.block.context_manager
     default_contexts: [cms]
 
     profiler:
@@ -14,10 +14,10 @@ sonata_block:
 
         sonata.block.service.text:
               cache: sonata.cache.memcached
-        sonata.page.block.container:
-              cache: sonata.cache.memcached
-        sonata.page.block.children_pages:
-              cache: sonata.cache.memcached
+#        sonata.page.block.container:
+#              cache: sonata.cache.memcached
+#        sonata.page.block.children_pages:
+#              cache: sonata.cache.memcached
         sonata.block.service.rss:
               cache: sonata.cache.memcached
         sonata.media.block.media:

@@ -8,10 +8,8 @@ imports:
 
     # Sonata Bundles
     - { resource: sonata/sonata_admin.yml }
-    - { resource: sonata/sonata_page.yml }
     - { resource: sonata/sonata_media.yml }
     - { resource: sonata/sonata_formatter.yml }
-    - { resource: sonata/sonata_news.yml }
     - { resource: sonata/sonata_cache.yml }
     - { resource: sonata/sonata_seo.yml }
     - { resource: sonata/sonata_user.yml }
@@ -19,14 +17,8 @@ imports:
     # liip
     - { resource: liip/liip_monitor.yml }
 
-    # apc
-    #- { resource: ornicar/apc.yml }
-
     # rmzamora
-    #- { resource: rmzamora/demo.yml }
     - { resource: rmzamora/ckeditor.yml }
-#    - { resource: rmzamora/solr.yml }
-#    - { resource: rmzamora/rz/rz_search.yml }
 
     #  egeloen
     - { resource: egeloen/ckeditor.yml }
