@@ -99,7 +99,7 @@
     },
 
     "config": {
-        "bin-dir": "bin"
+        "bin-dir": "bin",
         "process-timeout" : 4000,
         "github-protocols": ["https", "git"]
     },
