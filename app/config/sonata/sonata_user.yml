@@ -4,9 +4,9 @@ sonata_user:
         user:         Application\Sonata\UserBundle\Entity\User
         group:        Application\Sonata\UserBundle\Entity\Group
 
-    impersonating:
-        route:                page_slug
-        parameters:           { path: / }
+#    impersonating:
+#        route:                page_slug
+#        parameters:           { path: / }
 
     google_authenticator:
         server:               %sonata_user.google_authenticator.server%
