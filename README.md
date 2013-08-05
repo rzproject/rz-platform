@@ -1,7 +1,7 @@
 rz-platform
 ===========
 
-Base Symfony2 Application with SotanaBundles and RzBundles
+Base Symfony2 Application with SonataBundles and RzBundles
 
 What's inside?
 --------------
