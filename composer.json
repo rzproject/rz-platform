@@ -26,7 +26,7 @@
         "doctrine/doctrine-migrations-bundle": "dev-master",
         "doctrine/migrations": "dev-master",
         "doctrine/doctrine-fixtures-bundle": "2.1.*@dev",
-        "doctrine/data-fixtures": "dev-master",
+        "doctrine/data-fixtures": "1.0.*@dev",
 
         "jms/security-extra-bundle": "~1.5",
         "jms/di-extra-bundle": "~1.4",
@@ -51,8 +51,8 @@
         "rmzamora/media-bundle": "2.3.*@dev",
         "rmzamora/doctrine-orm-admin-bundle": "2.3.*@dev",
 
-        "rmzamora/jquery-bundle": "1.10.*@dev",
-        "rmzamora/bootstrap-bundle": "2.3.*@dev",
+        "rmzamora/jquery-bundle": "1.10.0.*@dev",
+        "rmzamora/bootstrap-bundle": "2.3.0.*@dev",
 
         "rmzamora/knp-menu-bundle": "2.0.x-dev",
         "rmzamora/entity-audit-bundle": "0.*@dev",
@@ -60,11 +60,11 @@
         "rmzamora/rest-bundle": "~1.0",
 
         "rz/formatter-bundle": "2.3.*",
-        "rz/admin-bundle": "2.3.*",
+        "rz/admin-bundle": "2.3.0.*@dev",
         "rz/block-bundle": "2.3.*",
-        "rz/user-bundle": "2.3.*",
-        "rz/media-bundle": "2.3.*",
-        "rz/doctrine-orm-admin-bundle": "2.3.*",
+        "rz/user-bundle": "2.3.0.*@dev",
+        "rz/media-bundle": "2.3.0.*@dev",
+        "rz/doctrine-orm-admin-bundle": "2.3.0.*@dev",
 
         "kriswallsmith/buzz": "0.7.*",
 
@@ -110,7 +110,7 @@
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
         "branch-alias": {
-            "dev-master": "2.3.x-dev"
+            "dev-2.3.0": "2.3.0.x-dev"
         }
     }
 }
